@@ -8,8 +8,8 @@ class Solve extends ReadString {
     String numberSecond;
 
     boolean isRomanOne() {
-         /*проверка первого числа на соответствие римским цифрам
-    (в данной программе берётся диапазон от 1 до 100 включительно*/
+         /*проверка первого числа на соответствие римским цифрам (is the first number a Roman?)
+    (в данной программе берётся диапазон от 1 до 100 включительно (this program works with numbers from 1 to 100 inclusive)*/
 
         RomanNumeral[] allRoman = RomanNumeral.values();
         for (RomanNumeral r : allRoman) {
@@ -22,8 +22,8 @@ class Solve extends ReadString {
     }
 
     boolean isRomanTwo() {
-   /*проверка второго числа на соответствие римским цифрам
-    (в данной программе берётся диапазон от 1 до 100 включительно*/
+   /*проверка второго числа на соответствие римским цифрам (is the second number a Roman?)
+    (в данной программе берётся диапазон от 1 до 100 включительно (this program works with numbers from 1 to 100 inclusive)*/
 
         RomanNumeral[] allRoman = RomanNumeral.values();
         for (RomanNumeral r : allRoman) {
